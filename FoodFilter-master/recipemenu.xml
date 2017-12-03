@@ -1,0 +1,535 @@
+<?xml version ="1.0"?>
+<recipes>
+  <recipe id="01">
+    <title> Mac and Cheese </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Macaroni" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices>
+        	<spice name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+        </spices>
+    </ingredients>
+    <preparation>
+      <step> Set a large, covered pot of salted water over high heat to boil. Add macaroni and cook until just al dente (avoid overcooking). Drain macaroni and set aside. In a large wide pot over medium-low heat, melt the butter. Sprinkle flour over butter, whisking to incorporate and make a roux. Cook, stirring constantly with a wooden spoon, until roux is light golden, about 4 minutes. Gradually pour in milk and cream, whisking constantly to incorporate and make a béchamel sauce. Raise heat to medium-high and bring sauce to a low boil, whisking constantly. Reduce to a simmer, whisking occasionally, and cook until béchamel sauce is thick and coats the back of a spoon, about 3 minutes more.
+        Add 2 tsp. salt, pepper, and mustard powder. Add the cheeses in three batches, whisking until each addition is completely melted before adding more. Remove from heat.
+        Add the drained macaroni to the pot with the cheese sauce and stir well to coat. Transfer macaroni mixture to the buttered baking dish and place on a rimmed baking sheet. Sprinkle topping evenly over macaroni and bake until golden and bubbling, 18–22 minutes. Let cool 15 minutes before serving.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 3000 </calories>
+    <image>
+      <src>images/macandcheese.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="02">
+    <title> Baked Chicken </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chicken" amount ="1" unit ="cup"/>
+        <basic name ="Oil" amount ="2" unit ="spoons"/>
+      </basics>
+        <spices name ="Black Pepper, salt, oregano" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Arrange racks in top and bottom of oven and place a rimmed baking sheet on bottom rack; preheat to 450°F. Beat eggs in a large shallow bowl. Using a fork or your fingertips, mix breadcrumbs, Parmesan, 3 Tbsp. oil, 3 tsp. oregano, 1/2 tsp. salt, and 1/2 tsp. pepper in another large shallow bowl or plate.
+        Working with 1 cutlet at a time, dip in egg, allowing excess to drip back into bowl. Dredge in breadcrumb mixture, shaking off excess, then pressing to adhere. Transfer chicken to a baking sheet.
+        Carefully remove preheated baking sheet from oven and generously brush with oil. Transfer chicken to baking sheet and return to bottom rack. Roast 6 minutes, then carefully flip (use a spatula to scrape under cutlets) and sprinkle with mozzarella. Place baking sheet on top rack and continue to roast until juices run clear, mozzarella is melted, and an instant-read thermometer inserted into the center of cutlet registers 165°F, about 4 minutes more.
+        Meanwhile, heat remaining 2 Tbsp. oil in a large skillet over medium-high. Cook onion, stirring, until softened, 3–4 minutes. Add garlic and cook until fragrant, about 1 minute more. Add marinara sauce, red pepper flakes (if using), 1/4 cup basil, and remaining 1/2 tsp. oregano, 1/4 tsp. salt, and 1/4 tsp. pepper. Cook, stirring, until sauce starts to bubble. Reduce heat to medium and simmer until chicken is ready, stirring occasionally, at least 5 minutes.
+        Divide sauce among 4 plates. Top with chicken and torn basil.
+      </step>
+    </preparation>
+    <preparation_time> 30 mins </preparation_time>
+    <calories> 700 </calories>
+    <image>
+      <src>images/bakedchicken.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="03">
+    <title> Roast Chicken </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="4 bone-in chicken legs" amount ="3" unit ="pounds"/>
+        <basic name ="1/2 large butternut squash, peeled" amount ="2" unit ="cups"/>
+      </basics>
+        <spices name ="Black Pepper, salt, chopped parsley" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Bring 5 cups water to a boil in a medium pot, season with salt, and add sorghum. Cover and cook until tender, about 1 hour. Drain well.
+        Place racks in upper and lower thirds of oven and set a rimmed baking sheet on lower rack; preheat oven to 400°F. Arrange squash on another rimmed baking sheet; season with salt and dot with 2 Tbsp. butter. Place on upper rack in oven. Roast, turning occasionally to recoat with butter, until tender, 40–45 minutes. Meanwhile, rub chicken all over with oil; season with salt and pepper. Place skin side down on heated baking sheet on lower rack in oven. Roast until an instant-read thermometer inserted into the thickest part of thigh registers 165°F, 30–35 minutes.
+        Cook remaining 4 Tbsp. butter in a large skillet over medium heat until it foams, then browns (be careful not to let it burn), about 5 minutes. Reduce heat to medium-low; add sorghum, squash, broth, maple syrup, and vinegar to brown butter and toss to combine. Simmer until liquid is evaporated, about 4 minutes. Remove from heat and stir in lemon juice; season with salt, pepper, and more vinegar, if desired.
+        Divide squash and sorghum among plates and top with chicken, parsley, and pomegranate seeds.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 100 </calories>
+    <image>
+      <src>images/roastchicken.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="04">
+    <title> Garlic Chicken </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="boneless, skinless chicken thighs" amount ="12" unit ="pieces"/>
+        <basic name ="Sweet paprika" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="fresh thyme sprigs, Black Pepper, salt, cloves, garlic" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Rub the chicken with paprika, salt, and pepper and set aside at room temperature for at least 1 hour or preferably in the refrigerator at least 8 hours or overnight.
+        Preheat the oven to 400°F.
+        In a large sauté pan, heat the oil over medium heat. Add the crushed garlic and cook, stirring, until softened but not colored, 2 minutes. Add the chicken pieces and fry, turning as needed, until golden on both sides, 5 to 8 minutes. You want them nicely colored on the outside but not cooked through. Using a slotted spoon, transfer to paper towels to drain briefly, and then arrange the pieces in a cazuela or baking dish large enough to hold them in a single layer.
+        Remove the crushed garlic from the oil and discard. Return the pan to low heat. Add the minced garlic and cook briefly. Add the thyme, bay leaves, sherry, and broth, raise the heat to high, and bring to a boil. Remove from the heat and pour over the chicken.
+        Bake the chicken until cooked through, 25 to 30 minutes. Remove from the oven and discard the bay leaves and thyme. If the pan juices are thin, transfer to a small saucepan and cook over medium high heat until reduced, and then return to the cazuela. Sprinkle with the parsley and serve at once.You also can complete the cooking on the stove top. Sauté the minced garlic as directed, return the chicken to the pan, add the sherry and broth, and simmer, uncovered, until most of the liquid has evaporated and the chicken is tender, 15 to 20 minutes
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1040 </calories>
+    <image>
+      <src>images/garlicchicken.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="05">
+    <title> Buffalo Chicken </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chicken tenders, cut into strips" amount ="1" unit ="pound"/>
+        <basic name ="Crumbled blue cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="celery stalks, cut into sticks, Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Soak skewers in water 15 minutes. Heat broiler; coat a broiler pan with cooking spray. Broil 4 minutes. Turn chicken; brush with remaining sauce. Broil until chicken is cooked through, 4 to 5 minutes.
+        In a bowl, stir cornstarch into 1 tablespoon hot sauce until smooth; stir in remaining hot sauce. Add chicken; toss to coat. Thread chicken lengthwise on skewers; reserve remaining hot sauce mixture. Place chicken in pan so skewers hang off edge; cover exposed sticks with aluminum foil. In another bowl, combine blue cheese and dressing. Serve chicken with vegetable sticks and blue cheese dipping sauce.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1300 </calories>
+    <image>
+      <src>images/buffalochicken.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="06">
+    <title> Chicken Nuggets </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chicken breasts, boneless and skinless cut into chunks" amount ="1" unit ="pound"/>
+        <basic name ="Old fashioned oats " amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Dried parsley, Panko bread crumbs, Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Preheat oven to 375° F. Place the first 6 ingredients in a food processor until chicken is finely chopped and ingredients are combined. Place the bread crumbs and parmesan cheese in a shallow bowl or on a plate and stir to combine. With moistened hands, roll 1 tablespoon of chicken mixture between your palms and flatten it into a "nugget" shape.
+        Gently press nuggets into bread crumbs to evenly coat them. Place nuggets on a cooling rack. Place cooling rack over a foil-lined baking sheet.Lightly spray nuggets with cooking spray. Bake for 15 minutes and serve. To freeze, place nuggets on a sheet tray after this step and freeze for one hour. Place nuggets in labeled freezer bags for up to 3 months.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 100 </calories>
+    <image>
+      <src>images/chickennuggets.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="07">
+    <title> Turkey Chili </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Ground Turkey" amount ="1" unit ="pound"/>
+        <basic name ="Red bell pepper" amount ="1" unit ="cup"/>
+      </basics>
+        <spices name ="Chili powder, dried oregano, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Heat the oil in a large pot or Dutch oven over medium heat until shimmering. Add the bell pepper, onion, and garlic, season with salt, and cook, stirring occasionally, until the vegetables have softened, about 5 to 8 minutes.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 3000 </calories>
+    <image>
+      <src>images/turkeychili.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="08">
+    <title> Salisbury Steak </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Lean ground beef" amount ="2" unit ="pounds"/>
+        <basic name ="large eggs, lightly beaten" amount ="2" unit =""/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Heat the oven to 350°F and arrange the rack in the middle. Combine ground beef, eggs, breadcrumbs, 2 teaspoons of the Worcestershire sauce, salt, mustard, and pepper in a large bowl and mix well. Shape into 8 (3-1/2-by-2-1/2-by-1-inch) oval patties and set aside.
+        Heat a large frying pan over medium heat and melt 1 tablespoon of the butter. When it foams, add 4 patties and brown, about 3 to 4 minutes per side. Transfer patties to a 13-by-9-inch baking dish. Brown remaining 4 patties, and transfer to the baking dish. Drain all fat from the pan but leave any browned bits.
+        Return the pan to medium heat and melt remaining 4 tablespoons butter. Add mushrooms and shallots and season with salt and freshly ground black pepper. Cook, stirring rarely, until mushrooms are slightly browned and soft, about 4 minutes.
+        Sprinkle flour over mixture and stir until fully incorporated. Cook, stirring occasionally, until flour is lightly toasted, about 3 minutes. Add red wine and stir, scraping up any browned bits from the bottom of the pan. Slowly pour in broth and stir until smooth. Let mixture come to a boil and cook until sauce is reduced by half, about 13 minutes.
+        Add remaining 1 tablespoon Worcestershire sauce. Taste and add salt and freshly ground black pepper as needed. Pour sauce over patties in the baking dish and cover with aluminum foil. Bake for 20 minutes or until meat is tender and slightly pink in the middle.
+      </step>
+    </preparation>
+    <preparation_time> 40 mins </preparation_time>
+    <calories> 1700 </calories>
+    <image>
+      <src>images/salisburysteak.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="09">
+    <title> Taco Soup </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Ground Beef" amount ="2" unit ="pounds"/>
+        <basic name ="Kidney beans" amount ="1" unit ="ounce"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Brown the ground beef and onions in a large skillet; drain the excess fat, then transfer the browned beef and onions to a large slow cooker or a stockpot. Add the beans, corn, tomatoes, green chiles, black olives, green olives, taco seasoning, and ranch dressing mix, and cook in a slow cooker on low for 6 to 8 hours or simmer over low heat for about 1 hour in a pot on the stove. To serve, place a few corn chips in each bowl and ladle soup over them. Top with sour cream, cheese, green onions and jalapenos.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1030 </calories>
+    <image>
+      <src>images/tacosoup.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="10">
+    <title> Cheese Burger </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Bun" amount ="1" unit =""/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> 
+        Grill burgers, covered, over medium heat or broil 3 in. from the heat for 4-7 minutes on each side or until a thermometer reads 160° and juices run clear. Top with cheese.
+      </step>
+    </preparation>
+    <preparation_time> 10 mins </preparation_time>
+    <calories> 107 </calories>
+    <image>
+      <src>images/cheeseburger.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="11">
+    <title> Pulled Pork </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Pork" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Pork, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 4000 </calories>
+    <image>
+      <src>images/pulledpork.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="12">
+    <title> Beef Curry </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Beef" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Bake Beef, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1100 </calories>
+    <image>
+      <src>images/beefcurry.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="13">
+    <title> Orange Chicken </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chicken" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Chicken, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1043 </calories>
+    <image>
+      <src>images/orangechicken.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="14">
+    <title> Mashed Potato </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Potato" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Potato, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1000 </calories>
+    <image>
+      <src>images/mashedpotato.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="15">
+    <title> Pork Chops </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Pork" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, butter" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Grill Pork, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1040 </calories>
+    <image>
+      <src>images/porkchops.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="16">
+    <title> Chicken Lasagna </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Lasagna" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Lasagna, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1014 </calories>
+    <image>
+      <src>images/chickenlasagna.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="17">
+    <title> Pasta Steak Salad </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Pasta" amount ="1" unit ="cup"/>
+        <basic name ="Beef Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Pasta, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 2900 </calories>
+    <image>
+      <src>images/pastasteaksalad.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="18">
+    <title> Chicken Pie </title>
+    <cuisine> Antartica </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Pie" amount ="1" unit ="cup"/>
+        <basic name ="Chicken Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Macaroni, add salt. </step>
+    </preparation>
+    <preparation_time> 10 mins </preparation_time>
+    <calories> 1042 </calories>
+    <image>
+      <src>images/chickenpie.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="19">
+    <title> Apple Pie </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Apple" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Pasta" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Bake Apple, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1670 </calories>
+    <image>
+      <src>images/applepie.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="20">
+    <title> Potato Salad </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Potato" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Salad" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Macaroni, add salt. </step>
+    </preparation>
+    <preparation_time> 50 mins </preparation_time>
+    <calories> 1634 </calories>
+    <image>
+      <src>images/potatosalad.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="21">
+    <title> Vegan Chili </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chili" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil chili, add salt. </step>
+    </preparation>
+    <preparation_time> 10 mins </preparation_time>
+    <calories> 1002 </calories>
+    <image>
+      <src>images/veganchili.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="22">
+    <title> Smoked Salmon </title>
+    <cuisine> Antartica </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Salmon" amount ="1" unit ="cup"/>
+        <basic name ="Pepper Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Boil Salmon, add salt. </step>
+    </preparation>
+    <preparation_time> 30 mins </preparation_time>
+    <calories> 1340 </calories>
+    <image>
+      <src>images/smokedsalmon.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="23">
+    <title> Adobo Chicken </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Adobo" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Chicken" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Cook Chicken, add salt. </step>
+    </preparation>
+    <preparation_time> 23 mins </preparation_time>
+    <calories> 2000 </calories>
+    <image>
+      <src>images/adobochicken.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="24">
+    <title> Cranberry Pork </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Cranberry" amount ="1" unit ="cup"/>
+        <basic name ="Pork Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Bake Cranberry, add salt. </step>
+    </preparation>
+    <preparation_time> 25 mins </preparation_time>
+    <calories> 104 </calories>
+    <image>
+      <src>images/cranberrypork.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="25">
+    <title> Veggie Salad </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Veggie" amount ="1" unit ="cup"/>
+        <basic name ="Salad Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Toss Macaroni, add salt. </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 500 </calories>
+    <image>
+      <src>images/veggiesalad.jpg</src>
+    </image>
+  </recipe>
+
+</recipes>

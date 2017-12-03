@@ -1,0 +1,128 @@
+<?xml version ="1.0"?>
+<recipes>
+  <recipe id="01">
+    <title> Cream of Mushroom Soup </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Macaroni" amount ="1" unit ="cup"/>
+        <basic name ="Cheddar Cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices>
+          <spice name ="Black Pepper, salt" amount ="1" unit ="spoon"/>
+        </spices>
+    </ingredients>
+    <preparation>
+      <step> Set a large, covered pot of salted water over high heat to boil. Add macaroni and cook until just al dente (avoid overcooking). Drain macaroni and set aside. In a large wide pot over medium-low heat, melt the butter. Sprinkle flour over butter, whisking to incorporate and make a roux. Cook, stirring constantly with a wooden spoon, until roux is light golden, about 4 minutes. Gradually pour in milk and cream, whisking constantly to incorporate and make a béchamel sauce. Raise heat to medium-high and bring sauce to a low boil, whisking constantly. Reduce to a simmer, whisking occasionally, and cook until béchamel sauce is thick and coats the back of a spoon, about 3 minutes more.
+        Add 2 tsp. salt, pepper, and mustard powder. Add the cheeses in three batches, whisking until each addition is completely melted before adding more. Remove from heat.
+        Add the drained macaroni to the pot with the cheese sauce and stir well to coat. Transfer macaroni mixture to the buttered baking dish and place on a rimmed baking sheet. Sprinkle topping evenly over macaroni and bake until golden and bubbling, 18–22 minutes. Let cool 15 minutes before serving.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 3000 </calories>
+    <image>
+      <src>images/mushroom.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="02">
+    <title> Double-Double Cheeseburgers </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chicken" amount ="1" unit ="cup"/>
+        <basic name ="Oil" amount ="2" unit ="spoons"/>
+      </basics>
+        <spices name ="Black Pepper, salt, oregano" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Arrange racks in top and bottom of oven and place a rimmed baking sheet on bottom rack; preheat to 450°F. Beat eggs in a large shallow bowl. Using a fork or your fingertips, mix breadcrumbs, Parmesan, 3 Tbsp. oil, 3 tsp. oregano, 1/2 tsp. salt, and 1/2 tsp. pepper in another large shallow bowl or plate.
+        Working with 1 cutlet at a time, dip in egg, allowing excess to drip back into bowl. Dredge in breadcrumb mixture, shaking off excess, then pressing to adhere. Transfer chicken to a baking sheet.
+        Carefully remove preheated baking sheet from oven and generously brush with oil. Transfer chicken to baking sheet and return to bottom rack. Roast 6 minutes, then carefully flip (use a spatula to scrape under cutlets) and sprinkle with mozzarella. Place baking sheet on top rack and continue to roast until juices run clear, mozzarella is melted, and an instant-read thermometer inserted into the center of cutlet registers 165°F, about 4 minutes more.
+        Meanwhile, heat remaining 2 Tbsp. oil in a large skillet over medium-high. Cook onion, stirring, until softened, 3–4 minutes. Add garlic and cook until fragrant, about 1 minute more. Add marinara sauce, red pepper flakes (if using), 1/4 cup basil, and remaining 1/2 tsp. oregano, 1/4 tsp. salt, and 1/4 tsp. pepper. Cook, stirring, until sauce starts to bubble. Reduce heat to medium and simmer until chicken is ready, stirring occasionally, at least 5 minutes.
+        Divide sauce among 4 plates. Top with chicken and torn basil.
+      </step>
+    </preparation>
+    <preparation_time> 30 mins </preparation_time>
+    <calories> 700 </calories>
+    <image>
+      <src>images/burger.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="03">
+    <title> Peanut Butter Oatmeal Cookies </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="4 bone-in chicken legs" amount ="3" unit ="pounds"/>
+        <basic name ="1/2 large butternut squash, peeled" amount ="2" unit ="cups"/>
+      </basics>
+        <spices name ="Black Pepper, salt, chopped parsley" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Bring 5 cups water to a boil in a medium pot, season with salt, and add sorghum. Cover and cook until tender, about 1 hour. Drain well.
+        Place racks in upper and lower thirds of oven and set a rimmed baking sheet on lower rack; preheat oven to 400°F. Arrange squash on another rimmed baking sheet; season with salt and dot with 2 Tbsp. butter. Place on upper rack in oven. Roast, turning occasionally to recoat with butter, until tender, 40–45 minutes. Meanwhile, rub chicken all over with oil; season with salt and pepper. Place skin side down on heated baking sheet on lower rack in oven. Roast until an instant-read thermometer inserted into the thickest part of thigh registers 165°F, 30–35 minutes.
+        Cook remaining 4 Tbsp. butter in a large skillet over medium heat until it foams, then browns (be careful not to let it burn), about 5 minutes. Reduce heat to medium-low; add sorghum, squash, broth, maple syrup, and vinegar to brown butter and toss to combine. Simmer until liquid is evaporated, about 4 minutes. Remove from heat and stir in lemon juice; season with salt, pepper, and more vinegar, if desired.
+        Divide squash and sorghum among plates and top with chicken, parsley, and pomegranate seeds.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 100 </calories>
+    <image>
+      <src>images/cookies.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="04">
+    <title> Marbled Pumpkin Cheesecake </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="boneless, skinless chicken thighs" amount ="12" unit ="pieces"/>
+        <basic name ="Sweet paprika" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="fresh thyme sprigs, Black Pepper, salt, cloves, garlic" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Rub the chicken with paprika, salt, and pepper and set aside at room temperature for at least 1 hour or preferably in the refrigerator at least 8 hours or overnight.
+        Preheat the oven to 400°F.
+        In a large sauté pan, heat the oil over medium heat. Add the crushed garlic and cook, stirring, until softened but not colored, 2 minutes. Add the chicken pieces and fry, turning as needed, until golden on both sides, 5 to 8 minutes. You want them nicely colored on the outside but not cooked through. Using a slotted spoon, transfer to paper towels to drain briefly, and then arrange the pieces in a cazuela or baking dish large enough to hold them in a single layer.
+        Remove the crushed garlic from the oil and discard. Return the pan to low heat. Add the minced garlic and cook briefly. Add the thyme, bay leaves, sherry, and broth, raise the heat to high, and bring to a boil. Remove from the heat and pour over the chicken.
+        Bake the chicken until cooked through, 25 to 30 minutes. Remove from the oven and discard the bay leaves and thyme. If the pan juices are thin, transfer to a small saucepan and cook over medium high heat until reduced, and then return to the cazuela. Sprinkle with the parsley and serve at once.You also can complete the cooking on the stove top. Sauté the minced garlic as directed, return the chicken to the pan, add the sherry and broth, and simmer, uncovered, until most of the liquid has evaporated and the chicken is tender, 15 to 20 minutes
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1040 </calories>
+    <image>
+      <src>images/cheesecake.jpg</src>
+    </image>
+  </recipe>
+
+  <recipe id="05">
+    <title> Basic Cashew Cheese Sauce </title>
+    <cuisine> American </cuisine>
+    <ingredients>
+      <basics>
+        <basic name ="Chicken tenders, cut into strips" amount ="1" unit ="pound"/>
+        <basic name ="Crumbled blue cheese" amount ="1/2" unit ="cup"/>
+      </basics>
+        <spices name ="celery stalks, cut into sticks, Black Pepper, salt" amount ="1" unit ="spoon"/>
+    </ingredients>
+    <preparation>
+      <step> Soak skewers in water 15 minutes. Heat broiler; coat a broiler pan with cooking spray. Broil 4 minutes. Turn chicken; brush with remaining sauce. Broil until chicken is cooked through, 4 to 5 minutes.
+        In a bowl, stir cornstarch into 1 tablespoon hot sauce until smooth; stir in remaining hot sauce. Add chicken; toss to coat. Thread chicken lengthwise on skewers; reserve remaining hot sauce mixture. Place chicken in pan so skewers hang off edge; cover exposed sticks with aluminum foil. In another bowl, combine blue cheese and dressing. Serve chicken with vegetable sticks and blue cheese dipping sauce.
+      </step>
+    </preparation>
+    <preparation_time> 20 mins </preparation_time>
+    <calories> 1300 </calories>
+    <image>
+      <src>images/sauce.jpg</src>
+    </image>
+  </recipe>
+
+
+
+
+
+</recipes>

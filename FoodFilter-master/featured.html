@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Featured Recipes - Garden of Spices</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="xml" type="text/xml" href="featured.xml"/>
+   <!-- <script type = "text/javascript" src = "cookingtest.js"></script>
+   <script type = "text/javascript"></script> -->
+   	<script src="jquery-3.1.1.js"></script>
+
+
+	<script type="text/javascript" language="javascript">
+	$( document ).ready(function() {
+	    $.get('featured.xml', function(d){
+	        $('div#featureBody').append('<ul id="recipeList"/>');
+
+	        $(d).find('recipe').each(function(){
+
+	            var $recipe = $(this);
+	            var id = $recipe.attr("id");
+	            var title = $recipe.find("title").text();
+	            var intro = $recipe.find("intro").text(); //added prep_time
+	            // var calorie = $recipe.find("calories").text(); //added calories
+
+	            var img = $recipe.find("image").find('src').text();
+	            var ingredients = [];
+
+	            $recipe.find('basic').each(function(){
+	            	var $ing = $(this);
+	            	var name = $ing.attr("name");
+	            	var amount = $ing.attr("amount");
+	            	var unit = $ing.attr("unit");
+	            	var ingrd = {name: name, amount: amount, unit: unit};
+	            	ingredients.push(ingrd);
+
+	            });
+
+
+
+	            var preps = [];
+	            $recipe.find('step').each(function(){
+	            	var $step = $(this);
+	            	var prepText = $step.text();
+	            	preps.push(prepText);
+
+	            });
+
+	            // var preps_time = $recipe.find("preparation_time").text();
+
+	            console.log(title);
+
+	            var html = '<p>';
+	            // html += '<a href="index.html"><img src="' + img + '" alt="Image"></a>';
+	            html += '<div id="description' + id + '"><h3 id="demo">' + title + '</h3></div>'
+	            html += '</p>';
+	            $('ul#recipeList').append($(html));
+
+             //    // prep_time calling
+                var timeHtml = '<p>';
+                timeHtml += '<strong> ' + '</strong>' + intro  + '</p>';
+                $('div#description'+id).append($(timeHtml));
+
+								var image = '<p>';
+               image += '<a href="index.html"><img src="' + img + '" alt="Image"></a>';
+               $('div#description'+id).append($(image));
+
+             //    //calorie calling
+             //    var calorieHtml = '<p>';
+             //    calorieHtml += '<strong>Calories: ' + '</strong>' + calorie  + '</p>';
+             //    $('div#description'+id).append($(calorieHtml));
+
+	            $.each(ingredients, function( i, val ) {
+	            	var ingHtml = '<p>';
+	            	ingHtml += '<strong>' + val.name + ':</strong>' + val.amount + ' ' + val.unit + '</p>';
+	            	$('div#description'+id).append($(ingHtml));
+
+
+
+	            });
+
+
+
+	            $.each(preps, function( i, val ) {
+	            	var prepHtml = '<p>';
+	            	prepHtml += '<strong>Instructions:' + '</strong>' + val + '</p>';
+	            	$('div#description'+ id).append($(prepHtml));
+	            });
+
+	        });
+	    });
+
+	});
+
+	</script>
+</head>
+<body>
+<p id="demo"></p>
+	<div class="header">
+		<div>
+			<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+		</div>
+	</div>
+	<div class="body">
+		<div>
+			<div class="header">
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="recipes.html">Recipes</a>
+					</li>
+					<li class="current">
+						<a href="featured.html">Seasonal</a>
+					</li>
+					<li>
+						<a href="videos.html">Vegan Lovers</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="blog.html">Blog</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="body">
+				<div id="content">
+					<div id="featureBody">
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+		<div>
+			<div>
+				<h3>Cooking Video</h3>
+				<a href="videos.html"><img src="images/cooking-video.png" alt="Image"></a>
+				<span>Vegetable &amp; Rice Topping</span>
+			</div>
+			<div>
+				<h3>Featured Recipes</h3>
+				<ul id="featured">
+					<li>
+						<a href="recipes.html"><img src="images/sandwich.jpg" alt="Image"></a>
+						<div>
+							<h2><a href="recipes.html">Ham Sandwich</a></h2>
+							<span>by: Syeda</span>
+						</div>
+					</li>
+					<li>
+						<a href="recipes.html"><img src="images/biscuit-and-coffee.jpg" alt="Image"></a>
+						<div>
+							<h2><a href="recipes.html">Biscuit &amp; Sandwich</a></h2>
+							<span>by: Asmina</span>
+						</div>
+					</li>
+					<li>
+						<a href="recipes.html"><img src="images/pizza.jpg" alt="Image"></a>
+						<div>
+							<h2><a href="recipes.html">Delicious Pizza</a></h2>
+							<span>by: Lino</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Blog</h3>
+				<ul id="blog">
+					<li>
+						<a href="blog.html">ThanksGiving Treats 2016</a>
+						<span class="date">Dec 9, by Asmina</span>
+					</li>
+					<li>
+						<a href="blog.html">Favourite Winter Soups</a>
+						<span class="date">Feb 16, by Syda</span>
+					</li>
+					<li>
+						<a href="blog.html">My Top 10 Dishes All Over the World</a>
+						<span class="date">March 15, by Lino</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>Share your favorite recipes</h3>
+				<a href="http://facebook.com/" target="_blank" id="facebook">Facebook</a>
+				<a href="http://twitter.com/" target="_blank" id="twitter">Twitter</a>
+				<a href="http://youtube.com/" target="_blank" id="youtube">Youtube</a>
+				<a href="http://flickr.com/" target="_blank" id="flickr">Flickr</a>
+				<a href="http://googleplus.com/" target="_blank" id="googleplus">Google&#43;</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div>
+			<p>
+				&copy; Copyright 2012. All rights reserved
+			</p>
+		</div>
+	</div>
+</body>
+</html>
